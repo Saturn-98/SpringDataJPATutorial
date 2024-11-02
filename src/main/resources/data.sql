@@ -1,6 +1,22 @@
-INSERT INTO test.product_table(price, quantity, sku, title_x)
+INSERT INTO test.product_table(sku, title_x, price, quantity)
 VALUES
-(12.4, 4, "pepsi123", "ParleG"),
-(14.4, 4, "pepsi124", "mazza"),
-(16.4, 4, "pepsi125", "Pepsi"),
-(16.4, 4, "pepsi126", "CocaCola");
+('SKU001', 'Apple iPhone 13 - 128GB', 799.99, 50),
+('SKU001', 'Apple iPhone 13 - 256GB', 899.99, 30),
+('SKU002', 'Samsung Galaxy S21 - 128GB', 699.99, 40),
+('SKU002', 'Samsung Galaxy S21 - 256GB', 799.99, 25),
+('SKU003', 'Dell XPS 13 Laptop - 8GB RAM', 999.99, 20),
+('SKU003', 'Dell XPS 13 Laptop - 16GB RAM', 1199.99, 15),
+('SKU004', 'Sony WH-1000XM4 Headphones - Black', 349.99, 100),
+('SKU004', 'Sony WH-1000XM4 Headphones - Silver', 349.99, 80),
+('SKU005', 'Apple MacBook Pro 14-inch - M1', 1999.99, 15),
+('SKU005', 'Apple MacBook Pro 14-inch - M1 Pro', 2499.99, 10),
+('SKU006', 'Nintendo Switch Console - Neon Blue/Red', 299.99, 60),
+('SKU006', 'Nintendo Switch Console - Gray', 299.99, 55),
+('SKU007', 'Canon EOS R5 Camera - Body Only', 3899.99, 5),
+('SKU007', 'Canon EOS R5 Camera - with Lens Kit', 4199.99, 3),
+('SKU008', 'Fitbit Charge 5 - Black', 129.99, 80),
+('SKU008', 'Fitbit Charge 5 - White', 129.99, 75),
+('SKU009', 'Amazon Kindle Paperwhite - 8GB', 139.99, 45),
+('SKU009', 'Amazon Kindle Paperwhite - 32GB', 159.99, 40),
+('SKU010', 'Bose QuietComfort 35 II - Black', 299.99, 75),
+('SKU010', 'Bose QuietComfort 35 II - Silver', 299.99, 65);
